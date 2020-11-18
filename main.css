@@ -1,4 +1,5 @@
-.container {
+.container,
+.container1 {
   max-width: 1280px;
   padding: 0 1.5rem;
   margin: auto;
@@ -21,6 +22,19 @@
 .btn-dark {
   color: #f4f4f4;
   background: #333; }
+.btn-contact {
+  display: inline-block;
+  padding: 0.5rem 2.5rem;
+  transition: all 0.5s;
+  border: 1px solid #f4f4f444;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: #333;
+  border-radius: 5px;
+  color: #ffbc00; }
+  .btn-contact:hover {
+    color: #ffbb00e5;
+    background: rgba(161, 161, 161, 0.3); }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
@@ -93,7 +107,7 @@ input[class^='btn-']:hover {
         position: absolute;
         padding-right: 10px;
         padding-left: 10px;
-        top: 30%;
+        top: 40%;
         color: #001;
         font-weight: bold;
         z-index: 3;
@@ -120,7 +134,7 @@ input[class^='btn-']:hover {
     .items .item .item-text {
       border-top: 3px solid #ffbc00;
       border-bottom: 3px solid #ffbc00; }
- .items .item .item-text .item-text-category {
+      .items .item .item-text .item-text-category {
         display: inline-block;
         margin-top: 10px;
         height: 20px;
@@ -138,11 +152,24 @@ input[class^='btn-']:hover {
 .body-all {
   font-family: 'Dosis', sans-serif;
   line-height: 1.6;
-  background: url("showcase2 - Copy.jpg") no-repeat center center/cover; }
+  background: url("../img/showcase2 - Copy.jpg") no-repeat center center/cover; }
+.body-about {
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  background: url("../img/showcase.jpg") no-repeat center center/cover; }
 .body-work {
   font-family: 'Dosis', sans-serif;
   line-height: 1.6;
-  background: url("showcase.jpg") no-repeat center center/cover; }
+  background: url("../img/showcase.jpg") no-repeat center center/cover; }
+  .body-work ul {
+    margin-top: 1rem; }
+  .body-work ul li a {
+    font-size: 1.6rem;
+    margin: 1rem;
+    margin-top: 2rem; }
+  .body-work i {
+    font-size: 1.6rem;
+    margin-top: 0.5rem; }
 
 a {
   text-decoration: none;
@@ -285,6 +312,52 @@ img {
       color: #fff;
       border-radius: 4px; }
 
+#contact-a {
+  margin: auto;
+  justify-content: center;
+  align-items: center; }
+  #contact-a .form {
+    background-color: rgba(255, 255, 255, 0.01);
+    display: inline-block;
+    border: 1px solid #333;
+    padding: 1.5rem;
+    margin-top: 0.5rem;
+    min-height: 40vh;
+    width: 65%; }
+  #contact-a .text-fields {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    margin-bottom: 1rem; }
+    #contact-a .text-fields .text-input {
+      padding: 0.8rem 1rem;
+      background-color: rgba(51, 51, 51, 0.4);
+      color: rgba(255, 255, 255, 0.897); }
+    #contact-a .text-fields .label-input {
+      display: block;
+      font-size: 1.2rem;
+      text-align: left; }
+  #contact-a .text-fields1 {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    margin-bottom: 1rem; }
+    #contact-a .text-fields1 .label-input {
+      display: block;
+      font-size: 1.2rem;
+      text-align: left; }
+    #contact-a .text-fields1 .text-input {
+      padding: 0.8rem 1rem;
+      background-color: rgba(51, 51, 51, 0.4);
+      color: rgba(255, 255, 255, 0.897); }
+  #contact-a .button-contact {
+    max-width: 300px;
+    justify-self: center; }
+  #contact-a .section-title {
+    color: #ffbc00; }
+  #contact-a .section-title-line {
+    background-color: #f4f4f4;
+    width: 70px;
+    margin: 0.4rem auto; }
+
 #main-footer {
   color: #fff;
   height: 4rem; }
@@ -302,6 +375,29 @@ img {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fa:hover {
+        color: #ffbc00; }
+
+#main-footer1 {
+  color: #fff;
+  height: 5.2rem; }
+  #main-footer1 .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem; }
+    #main-footer1 .footer-content p {
+      margin-bottom: -1rem; }
+    #main-footer1 .footer-content .social .fa {
+      margin-right: 1.2rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      height: 35px;
+      width: 35px;
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 0.8rem;
+      padding-top: 0.8rem; }
+      #main-footer1 .footer-content .social .fa:hover {
         color: #ffbc00; }
 
 .collapsible {
@@ -326,5 +422,14 @@ img {
   padding: 0 18px;
   display: none;
   overflow: hidden; }
+
+.panel-default > .panel-heading {
+  background-color: inherit; }
+
+.lead1 {
+  font-size: 2.2rem;
+  /* font-size: 1.3rem; */
+  margin-bottom: 2rem;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
