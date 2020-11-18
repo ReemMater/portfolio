@@ -435,17 +435,4 @@ img {
   text-align: center; }
 
 
-@media (max-width: 400px) {
-  #contact-a .form {
-    width: 100%; }
-
-  #main-nav {
-    margin: auto;
-    justify-content: center; }
-    #main-nav li {
-      padding: 1rem 1rem; } 
-#main-nav li a {
-        font-size: 1rem;
-    }}
-
 /*# sourceMappingURL=main.css.map */
