@@ -165,12 +165,9 @@ input[class^='btn-']:hover {
     margin-top: 1rem; }
   .body-work ul li a {
     //font-size: 1.6rem;
-    margin: 1rem;
+   // margin: 1rem;
     margin-top: 2rem; }
-  .body-work i {
-    font-size: 1.6rem;
-    margin-top: 0.5rem; }
-
+ 
 a {
   text-decoration: none;
   color: #333; }
